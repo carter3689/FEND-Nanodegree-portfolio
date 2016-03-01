@@ -1,0 +1,77 @@
+@-ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+@media (max-width: 700px) {
+    h3 {
+        font-size: 16px;
+    }
+}
+@media(max-width: 1024px) and (max-height: 100%) {
+    #example-photo {
+        float: none;
+
+    }
+}
+@media(max-width: 1024px) and (max-height: 100%) {
+    #example-photo-1 {
+        float: none;
+        
+    }
+}
+@media(max-width: 1024px) and (max-height: 100%) {
+    #example-photo-2 {
+        
+    }
+}
+@media(max-width: 800px) {
+    #mj-wrapper {
+        max-width: 50%;
+        margin-right: 35%;
+    }
+}
+@media(max-width: 1224px) {
+    .text-center {
+        text-align: center;
+    }
+}
+@media(max-width: 400px) {
+    .text-center {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media(max-width: 800px){
+	#ninja-title{
+		margin-right: 0%;
+	}
+}
+.fonts {
+    font-family: 'Quicksand', sans-serif;
+}
+.right {
+    text-align: right;
+}
+.ninja-padding {
+    margin-top: -4%;
+}
+.logo-margin {
+    margin-left: 46%;
+}
+.border-bottom {
+    border-bottom: 2px solid #a6a6a6;
+    position: relative;
+    padding-top: 1%;
+}
+.jordan-padding {
+    padding-top: 27px;
+    margin-left: 22%;
+    max-width: 100%;
+}
+.grey-scale {
+    color: #d9d9d9;
+    font-weight: bold;
+}
+.pic-centered {
+    float: none !important;
+}
